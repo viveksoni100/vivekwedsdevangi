@@ -342,7 +342,7 @@ $(document).ready(function() {
 	$('#countdown').countdown({until: theday, format: 'WDHMS'});
 	$('#countdown').countdown($.countdown.regionalOptions['custom-label']); 
 		 
-	$('#date-countdown').countdown({until: theday, format: 'WDHMS'});
+	$('#date-countdown').countdown({until: new Date(2022, 5, 21, 0, 0)});
 		 
 	// 08. MOBILE MENU
 	//==================================================================================
