@@ -2849,6 +2849,8 @@ h2#dont-miss-it-title{
 
 .circle-countdown.is-countdown {
 	background-color:transparent;
+	color: white;
+	font-weight: bold;
 	border:none;
 	font-family: 'Oswald', sans-serif; 
 }
